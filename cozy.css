@@ -36,7 +36,7 @@
 .guilds-wrapper .guilds > .guild:first-child {
 	height: 25px;
 }
-
+/*
 .guilds-wrapper .guilds > .guild:first-child:after {
 	content: "DM's";
 	font-size: 12px;
@@ -53,6 +53,7 @@
     top: 0px;
     left: 0px;
 }
+*/
 
 .guilds-wrapper .guilds > .guild:first-child .guild-inner {
 	height: 20px !important;
