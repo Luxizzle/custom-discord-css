@@ -21,6 +21,7 @@
 .theme-dark .messages-wrapper .messages .divider:before, 
 .theme-dark .messages-wrapper .messages .divider span,
 #voice-connection,
+.container-RYiLUQ,
 .typing {
 	background: transparent !important;
 }
@@ -53,7 +54,7 @@
 }
 
 body {
-    background: url("https://u.nya.is/qfpmbb.png") no-repeat center center fixed;  /* https://u.nya.is/egppgi.png */
+    background: url("https://a.pomf.space/akchrghevkqw.png") no-repeat center center fixed;  /* https://u.nya.is/egppgi.png */
     background-size: cover;
 }
 
@@ -86,8 +87,6 @@ body {
 	content:"🎮 "!important;
 }
 
-
-
 .user-popout .body .roles .member-role:hover {
     color: #000 !important;
     background-color: #fff !important;
@@ -109,6 +108,19 @@ body {
 
 .message-group-blocked.revealed {
     background-color: rgba(0,0,0,.1) !important;
+}
+
+.guilds-wrapper .guilds .guild.unread:after {
+    height: 5px;
+    border-radius: 5px;
+    background: #f04747;
+    margin-top: -1.5px;
+    content: " ";
+    width: 5px;
+    right: -10px;
+    position: absolute;
+    top: 50%;
+    border-radius: 10px;
 }
 
 .emoji[alt=":star:"], .emoji[alt="⭐"] {
